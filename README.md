@@ -7,7 +7,7 @@
 ![image](https://github.com/JoeyBGofficial/Through-the-Wall-Radar-Human-Activity-Recognition-Based-on-M-D-Corner-Feature-and-Non-Local-Net/assets/67720072/8f4e46fc-40c3-4781-8737-da50f28e4a10)
 Fig. 1 Prospects for the application of through-the-wall radar human monitoring.
 
-**Basic Infomation:** This repository is the open source code for our latest feasibility work: "Abnormal Human Activity Recognition Method Based on Micro-Doppler Corner Representation and Non-Local Mechanisms for Through-the-Wall Radar", submitted to Journal of Radars;
+**Basic Information:** This repository is the open source code for our latest feasibility work: "Abnormal Human Activity Recognition Method Based on Micro-Doppler Corner Representation and Non-Local Mechanisms for Through-the-Wall Radar", submitted to Journal of Radars;
 
 **Submitted Author:** Weicheng Gao;
 
