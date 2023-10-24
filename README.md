@@ -1,6 +1,6 @@
 # Through-the-Wall-Radar-Human-Activity-Recognition-Based-on-M-D-Corner-Feature-and-Non-Local-Net
 
-**Motivation:** The reason we're willing to put in the effort to do this is because through-the-wall radar human activity recognition is a worthwhile research problem because it can provide non-contact, real-time human movement monitoring and recognition, with a wide range of potential applications in areas such as urban safety and disaster relief. Open-source efforts can foster collaboration and innovation in the field, advancing the technology and enabling it to benefit the wider research community.
+**Motivation:** The reason we're willing to put in the effort to do this is because through-the-wall radar human activity recognition is a worthwhile research problem because it can provide non-contact, real-time human movement monitoring and recognition, with a wide range of potential applications in areas such as urban safety and disaster rescue. Open-source efforts can foster collaboration and innovation in the field, advancing the technology and enabling it to benefit the wider research community.
 
 ![image](https://github.com/JoeyBGofficial/Through-the-Wall-Radar-Human-Activity-Recognition-Based-on-M-D-Corner-Feature-and-Non-Local-Net/assets/67720072/8f4e46fc-40c3-4781-8737-da50f28e4a10)
 Fig. 1 Prospects for the application of through-the-wall radar human monitoring.
