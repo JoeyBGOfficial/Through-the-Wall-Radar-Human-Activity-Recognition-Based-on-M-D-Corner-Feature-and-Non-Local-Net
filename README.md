@@ -5,7 +5,7 @@
 **Motivation:** The reason we're willing to put in the effort to do this is because through-the-wall radar human activity recognition is indeed a worthwhile research topic, which can provide non-contact, real-time human movement monitoring, with a wide range of potential applications in areas such as urban safety and disaster rescue. Besides, Open-source efforts can foster collaboration and innovation in the field, advancing the technology and enabling our work to benefit the wider research community.
 
 ![image](https://github.com/JoeyBGofficial/Through-the-Wall-Radar-Human-Activity-Recognition-Based-on-M-D-Corner-Feature-and-Non-Local-Net/assets/67720072/8f4e46fc-40c3-4781-8737-da50f28e4a10)
-Fig. 1. Prospects for the application of through-the-wall radar human monitoring (Permission to use this figure in publication is restricted).
+Fig. 1. Prospects for the application of through-the-wall radar human monitoring.
 
 **Basic Information:** This repository is the open source code for our latest feasibility work: "Abnormal Human Activity Recognition Method Based on Micro-Doppler Corner Representation and Non-Local Mechanisms for Through-the-Wall Radar", submitted to Journal of Radars;
 
