@@ -2,7 +2,7 @@
 
 ## I. INTRODUCTION
 
-**Motivation:** The reason we're willing to put in the effort to do this is because through-the-wall radar human activity recognition is indeed a worthwhile research topic, which can provide non-contact, real-time human movement monitoring, with a wide range of potential applications in areas such as urban safety and disaster rescue. Besides, Open-source efforts can foster collaboration and innovation in the field, advancing the technology and enabling our work to benefit the wider research community.
+**Motivation:** The reason we're willing to put in the effort to do this is because through-the-wall radar (TWR) human activity recognition is indeed a worthwhile research topic, which can provide non-contact, real-time human movement monitoring, with a wide range of potential applications in areas such as urban safety and disaster rescue. Besides, Open-source efforts can foster collaboration and innovation in the field, advancing the technology and enabling our work to benefit the wider research community.
 
 ![image](https://github.com/JoeyBGofficial/Through-the-Wall-Radar-Human-Activity-Recognition-Based-on-M-D-Corner-Feature-and-Non-Local-Net/assets/67720072/8f4e46fc-40c3-4781-8737-da50f28e4a10)
 Fig. 1. Prospects for the application of through-the-wall radar human monitoring.
@@ -19,4 +19,6 @@ Fig. 1. Prospects for the application of through-the-wall radar human monitoring
 
 [1] 
 
-## 
+## II. TWR Echo Model and Preprocessing Methods
+
+
