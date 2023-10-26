@@ -19,6 +19,19 @@ Fig. 1. Prospects for the application of through-the-wall radar human monitoring
 
 [1] 
 
-## II. TWR Echo Model and Preprocessing Methods
+## II. TWR ECHO MODEL AND PREPROCESSING METHODS
+
+### A. Theory in Simple 
+
+The proposed method first converts the frequency-domain echo received by the radar to the time domain first, then extracts its baseband signal, and then concatenates it along the slow time dimension, and the resulting image is a range-time map (RTM). The Doppler-time map (DTM) is obtained by summing all range bins of the RTM and doing the short time fourier transform (STFT) along the slow time dimension. The target image after clutter and noise suppression is obtained by doing Moving Target Indication Filtering (MTI) and Empirical Modal Decomposition (EMD) on both RTM and DTM, respectively. Finally, the generation of $\mathbf{R^2TM}$ and $\mathbf{D^2TM}$ is realized by vertical axis stretching.
+
+![回波模型](https://github.com/JoeyBGOfficial/Through-the-Wall-Radar-Human-Activity-Recognition-Based-on-M-D-Corner-Feature-and-Non-Local-Net/assets/67720072/2073ad58-2b97-4a75-9c2b-93b5bc7b631a)
+Fig. 2. Flowchart of the proposed radar data preprocessing method.
+
+### B. Codes Explanation
+
+**Codes Folder: ** 
+
+
 
 
