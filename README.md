@@ -150,13 +150,21 @@ Code for generating $\mathbf{R^2TM}$ by vertical axis stretching.
 
 **Output:** Stretched matrix $\mathbf{R^2TM}$.
 
-### B. Datafiles Explanation (Folder: TWR Echo and Preprocessing Tools, Plots)
+### C. Datafiles Explanation (Folder: TWR Echo and Preprocessing Tools, Plots)
 
 #### 1. R2TM_D2TM_Clist.m:
 
 This data file stores the color maps used to generate $\mathbf{R^2TM}$ and $\mathbf{D^2TM}$, which is a tool that corresponds to the color maps in the paper.
 
+## III. MICRO-DOPPLER CORNER DETECTION METHODS
 
+### A. Theory in Simple 
+
+The proposed method utilizes Harris model based detector to extract corner features on $\mathbf{R^2TM}$ and Moravec model based detector to extract corner features on $\mathbf{D^2TM}.
+
+![微信截图_20231022155040](https://github.com/JoeyBGOfficial/Through-the-Wall-Radar-Human-Activity-Recognition-Based-on-M-D-Corner-Feature-and-Non-Local-Net/assets/67720072/381900b4-9590-497e-a9ce-2bb0c373190b)
+
+Fig. 3. Detecting corner points on two types of radar images using two different detectors, respectively.
 
 
 
