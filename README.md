@@ -224,17 +224,18 @@ The script achieves the MATLAB version of whole process of Non-Local Net constru
 
 The script achieves the Python, Paddlepaddle framework improved version of whole process of Non-Local Net construction, network data input, network data preprocessing, real-time training and validation. The code also supports command-line one-click replacement of network module structure. The supporting functions are all placed in the NonLocalNet_Codes folder, each as follows:
 
-
+TABLE I. FUNCTIONS OF NON-LOCAL NET IN PYTHON VERSION
 | Names of the codes | Functions |
 | ------------------ | --------- |
 | non_local.py | Definition of Non-Local Modules Part. 1 |
-context_block.py	              Definition of Non-Local Modules Part. 2
-nlnet.py	                      Definition of the Network
-radar_har_dataset.py	          Definition of the Dataset
-config.py	                      Configurations
-train_val_split.py	            Splitting the Training and Validation Sets
-train.py                        Start Model Training
-eval.py	                        Start Model Validation
+| context_block.py | Definition of Non-Local Modules Part. 2 |
+|nlnet.py | Definition of the Network |
+|radar_har_dataset.py | Definition of the Dataset |
+| config.py | Configurations |
+| train_val_split.py | Splitting the Training and Validation Sets |
+| train.py | Start Model Training |
+| eval.py | Start Model Validation |
+
 
 
 
