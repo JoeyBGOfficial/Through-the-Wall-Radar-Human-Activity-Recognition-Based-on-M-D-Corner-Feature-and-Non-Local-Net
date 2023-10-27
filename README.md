@@ -214,6 +214,15 @@ The Non-Local mechanism is a technique used to capture long-range dependencies i
 
 Fig. 4. Details of the proposed Non-Local neural network's structure.
 
+### B. Codes Explanation (Folder: Non-Local Net (Matlab Version), Non-Local Net (Python Improved Version))
+
+#### 1. NonLocal_Net.m:
+
+The script achieves the MATLAB version of whole process of Non-Local Net construction, network data input, network data preprocessing, real-time training and validation.
+
+#### 2. NonLocalNet.py:
+
+The script achieves the Python, Paddlepaddle framework improved version of whole process of Non-Local Net construction, network data input, network data preprocessing, real-time training and validation. The code also supports command-line one-click replacement of network module structure. The supporting functions are all placed in the NonLocalNet_Codes folder, each as follows:
 
 
 
