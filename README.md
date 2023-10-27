@@ -17,7 +17,7 @@ Fig. 1. Prospects for the application of through-the-wall radar human monitoring
 
 **Corresponding Papers:**
 
-[1] 
+[1] X. Yang, W. Gao, X. Qu, "Anomalous Human Activity Recognition Method Based on Micro-Doppler Corner Representation and Non-Local Mechanisms for Through-the-Wall Radar," in *Journal of Radars*, 2023. [In Review Process]
 
 ## II. TWR ECHO MODEL AND PREPROCESSING METHODS
 
