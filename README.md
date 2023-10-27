@@ -30,7 +30,23 @@ Fig. 2. Flowchart of the proposed radar data preprocessing method.
 
 ### B. Codes Explanation (Folder: TWR Echo and Preprocessing Tools, Plots)
 
-#### 1. 
+#### 1. Channel_Concatenation.m:
+
+The function is used to concatenate color mapped $\mathbf{R^2TM}$ and $\mathbf{D^2TM}$ in channel direction.
+
+**Input:** $\mathbf{R^2TM}$ and $\mathbf{D^2TM}$, with the size of $256 \times 256 \times 3$, respectively.
+
+**Output:** Concatenated image with the size of $256\times 256\times 6$.
+
+#### 2. Convert_Gray_to_RGB.m:
+
+This function implements pseudo-color mapping for any input of grayscale image.
+
+**Input:** Gray-scale image $\mathbf{I}$.
+
+**Output:** Color image $\mathbf{I}_\mathrm{RGB}$.
+
+
 
 
 
