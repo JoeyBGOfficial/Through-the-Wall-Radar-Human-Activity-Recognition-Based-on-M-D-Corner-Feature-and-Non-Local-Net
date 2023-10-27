@@ -152,7 +152,7 @@ Code for generating $\mathbf{R^2TM}$ by vertical axis stretching.
 
 ### C. Datafiles Explanation (Folder: TWR Echo and Preprocessing Tools, Plots)
 
-#### 1. R2TM_D2TM_Clist.m:
+#### 1. R2TM_D2TM_Clist.mat:
 
 This data file stores the color maps used to generate $\mathbf{R^2TM}$ and $\mathbf{D^2TM}$, which is a tool that corresponds to the color maps in the paper.
 
@@ -222,7 +222,7 @@ The script achieves the MATLAB version of whole process of Non-Local Net constru
 
 #### 2. NonLocalNet.py:
 
-The script achieves the Python, Paddlepaddle framework improved version of whole process of Non-Local Net construction, network data input, network data preprocessing, real-time training and validation. The code also supports command-line one-click replacement of network module structure. The supporting functions are all placed in the NonLocalNet_Codes folder, each as follows:
+The script achieves the Python, Paddlepaddle framework improved version of whole process of Non-Local Net construction, network data input, network data preprocessing, real-time training and validation. The code also supports command-line one-click replacement of network module structure. Part of the codes come from the work of nanting03, and are improved by us. The supporting functions are all placed in the NonLocalNet_Codes folder, each as follows:
 
 TABLE I. FUNCTIONS OF NON-LOCAL NET IN PYTHON VERSION
 | Names of the codes | Functions |
@@ -236,7 +236,26 @@ TABLE I. FUNCTIONS OF NON-LOCAL NET IN PYTHON VERSION
 | train.py | Start Model Training |
 | eval.py | Start Model Validation |
 
+### C. Datafiles Explanation (Folder: Non-Local Net (Matlab Version), Non-Local Net (Python Improved Version))
 
+#### 1. Hyperparam.mat:
 
+The .mat file defines the hyperparameters and relationships between the various layers of the MATLAB version of the network and contains some of the information needed for training.
+
+## V. NUMERICAL SIMULATIONS AND EXPERIMENTS
+
+### A. Theory in Simple 
+
+In the paper we focus on the visualization, comparison and ablation validation of the performance of the proposed method. The visualization contains feature maps, training process. Comparison contains accuracy, generalization, robustness, etc. The ablation addresses the design necessity of each module.
+
+![实验场景示意图](https://github.com/JoeyBGOfficial/Through-the-Wall-Radar-Human-Activity-Recognition-Based-on-M-D-Corner-Feature-and-Non-Local-Net/assets/67720072/8f7cdc04-34e9-4cf0-9331-79413eb3b0b0)
+
+Fig. 5. Schematic diagram of the simulation and experimental scenes.
+
+### B. Codes Explanation (Folder: Non-Local Net (Matlab Version), Non-Local Net (Python Improved Version))
+
+#### 1. NonLocal_Net.m:
+
+The script achieves the MATLAB version of whole process of Non-Local Net construction, network data input, network data preprocessing, real-time training and validation.
 
 
