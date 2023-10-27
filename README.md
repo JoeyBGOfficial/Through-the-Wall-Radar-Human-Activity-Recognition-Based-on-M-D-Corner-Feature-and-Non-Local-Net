@@ -166,6 +166,16 @@ The proposed method utilizes Harris model based detector to extract corner featu
 
 Fig. 3. Detecting corner points on two types of radar images using two different detectors, respectively.
 
+### B. Codes Explanation (Folder: TWR Echo and Preprocessing Tools, Plots)
+
+#### 1. D2TM_Corner_Detector.m:
+
+The function is used to achieve Moravec model based corner detection on $\mathbf{D^2TM}.
+
+**Input:** $\mathbf{D^2TM}$ in matrix form.
+
+**Output:** Corner feature map of $\mathbf{D^2TM}$.
+
 
 
 
