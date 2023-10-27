@@ -252,10 +252,31 @@ In the paper we focus on the visualization, comparison and ablation validation o
 
 Fig. 5. Schematic diagram of the simulation and experimental scenes.
 
-### B. Codes Explanation (Folder: Non-Local Net (Matlab Version), Non-Local Net (Python Improved Version))
+### B. Codes Explanation (Folder: Confusion Matrices, SequenceNN, T-SNE Tools)
 
-#### 1. NonLocal_Net.m:
+#### 1. Confusion_Matrix_Generator.m:
 
-The script achieves the MATLAB version of whole process of Non-Local Net construction, network data input, network data preprocessing, real-time training and validation.
+The code implements the input of a confusion matrix in matrix form and outputs the result of its visualization, with the option of a slower but aesthetically pleasing generation or a faster but simplified one.
 
+#### 2. SequenceNN.m:
+
+Here we provide a construction scheme that combines ResNet with sequential neural networks as a comparative reference of sorts. The method is not given in the paper, but is still valid.
+
+#### 3. T_SNE.m:
+
+Input multiple sets of images of different categories and output their scatterplots reduced to three dimensions by T-SNE algorithm.
+
+### C. Datafiles Explanation (Folder: Confusion Matrices, SequenceNN, T-SNE Tools)
+
+#### 1. Hyperparam.mat:
+
+The .mat file defines the hyperparameters and relationships between the various layers of the MATLAB version of the sequential network and contains some of the information needed for training.
+
+#### 2. TSNE_Clist.mat:
+
+This data file stores the color maps used to generate T-SNE scatter Plots, which is a tool that corresponds to the color maps in the paper.
+
+## VI. EXTRA TOOLS
+
+In the Extra Preprocessing Tools folder of the project, we give a variety of different auxiliary signal, data processing tools for radar based human activity recognition. These include the classical FFT, HHT, TFD, WT, VMD algorithms, and so on. This part of the code is derived from the TWVD repository and slightly improved for processing reference.
 
