@@ -280,5 +280,14 @@ This data file stores the color maps used to generate T-SNE scatter Plots, which
 
 In the Extra Preprocessing Tools folder of the project, we give a variety of different auxiliary signal, data processing tools for radar based human activity recognition. These include the classical FFT, HHT, TFD, WT, VMD algorithms, and so on. This part of the code is referenced from the TWHD repository uploaded by other teams and slightly improved for processing reference.
 
+## VII. SOME THINGS TO NOTE
 
+**(1) Reproducibility Issues:** Academically, we give the results of a new exploration of micro-Doppler characterization studies. For engineering applications, the vast majority of data processing or detection methods need to be adapted for different data sources and qualities. Therefore, if the reproducibility is limited, the internal writing of the code needs to be adjusted or even the structure of the algorithm needs to be modified.
 
+**(2) Version Issues:** The project consists of the vast majority of MATLAB code and some Python code. The recommended MATLAB version is R2023a and above, the recommended Python version is 3.7 and above, and the recommended Paddlepaddle framework version number is 2.0 and above.
+
+**(3) Algorithm Design Issues:** If you want to speed up the convergence of the network, it is recommended to modify the four repeating cell sections to one. To improve the fitting ability of the network, the number of repeated unit sections can be increased.
+
+**(4) Right Issues:** **⭐The project is limited to learning purposes only. Any use or interpretation without authorized by us is not allowed!⭐**
+
+Hope that our work will bring positive contributions to the open source community in the filed of radar signal processing.
