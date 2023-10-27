@@ -2,7 +2,7 @@
 
 ### A. Theory in Simple 
 
-The proposed method utilizes Harris model based detector to extract corner features on $\mathbf{R^2TM}$ and Moravec model based detector to extract corner features on $\mathbf{D^2TM}.
+The proposed method utilizes Harris model based detector to extract corner features on $\mathbf{R^2TM}$ and Moravec model based detector to extract corner features on $\mathbf{D^2TM}$.
 
 ![微信截图_20231022155040](https://github.com/JoeyBGOfficial/Through-the-Wall-Radar-Human-Activity-Recognition-Based-on-M-D-Corner-Feature-and-Non-Local-Net/assets/67720072/381900b4-9590-497e-a9ce-2bb0c373190b)
 
