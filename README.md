@@ -46,6 +46,91 @@ This function implements pseudo-color mapping for any input of grayscale image.
 
 **Output:** Color image $\mathbf{I}_\mathrm{RGB}$.
 
+#### 3. DTM_EMD.m:
+
+This function implements the empirical modal decomposition processing on the DTM.
+
+**Input:** $\mathbf{DTM}$ in matrix form.
+
+**Output:** $\mathbf{DTM}_\mathrm{Processed}$.
+
+#### 4. DTM_Generator.m:
+
+This function implements the time-frequency analysis using STFT.
+
+**Input:** $\mathbf{RTM}$ in matrix form, and max_resolution, which adjusts the resolution of frequency domain in the result of STFT.
+
+**Output:** $\mathbf{DTM}$.
+
+#### 5. DTM_MTI.m:
+
+This function implements the moving target indication filter of DTM.
+
+**Input:** $\mathbf{DTM}$ in matrix form.
+
+**Output:** $\mathbf{DTM}_\mathrm{Declutter}$.
+
+#### 6. DTM_SVD.m:
+
+This function implements the sigular value decomposition filter of DTM.
+
+**Input:** $\mathbf{DTM}$ in matrix form.
+
+**Output:** $\mathbf{DTM}_\mathrm{Processed}$.
+
+#### 7. RTM_EMD.m:
+
+This function implements the empirical modal decomposition processing on the RTM.
+
+**Input:** $\mathbf{RTM}$ in matrix form.
+
+**Output:** $\mathbf{RTM}_\mathrm{Processed}$.
+
+#### 8. RTM_MTI.m:
+
+This function implements the moving target indication filter of RTM.
+
+**Input:** $\mathbf{RTM}$ in matrix form.
+
+**Output:** $\mathbf{RTM}_\mathrm{Declutter}$.
+
+#### 9. RTM_SVD.m:
+
+This function implements the sigular value decomposition filter of RTM.
+
+**Input:** $\mathbf{RTM}$ in matrix form.
+
+**Output:** $\mathbf{RTM}_\mathrm{Processed}$.
+
+#### 10. emd.m:
+
+This function is a tool function for the empirical modal decomposition algorithm. Sourced from MATLAB's native toolbox and fine-tuned.
+
+**Input:** $\mathbf{x}$ in sequence signal form.
+
+**Output:** Decomposed IMFs and variables of EMD processing corresponding to input $\mathbf{x}$.
+
+#### 11. ind2rgb_tool.m:
+
+This function is a tool function for the pseudo-color mapping algorithm. Sourced from MATLAB's native toolbox and fine-tuned.
+
+**Input:** $\mathbf{Indexed}$ in 2D integer matrix form, and $\mathrm{Colormap}$ object in MATLAB standard colormap form, which should be an M-By-3 matrix.
+
+**Output:** Mapped image $\mathbf{RGB}$.
+
+#### 12. nextpow2.m:
+
+This function is a implementation of finding the next neighboring power of $2$ of a input number. Sourced from MATLAB's native toolbox and fine-tuned.
+
+**Input:** Number $n$.
+
+**Output:** Neighboring power $p$ of $2$.
+
+
+
+
+
+
 
 
 
