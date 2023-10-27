@@ -166,7 +166,7 @@ The proposed method utilizes Harris model based detector to extract corner featu
 
 Fig. 3. Detecting corner points on two types of radar images using two different detectors, respectively.
 
-### B. Codes Explanation (Folder: TWR Echo and Preprocessing Tools, Plots)
+### B. Codes Explanation (Folder: MD Corner Detection)
 
 #### 1. D2TM_Corner_Detector.m:
 
@@ -200,10 +200,19 @@ The function is the tool for calculating gradient on a vector or an image.
 
 **Output:** Gradient map corresponding to the input signal or image.
 
+### C. Datafiles Explanation (Folder: MD Corner Detection)
 
+None.
 
+## IV. CORNER FEATURE MAP RECOGNITION BASED ON NON-LOCAL NETWORK
 
+### A. Theory in Simple 
 
+The Non-Local mechanism is a technique used to capture long-range dependencies in an image or feature map. It allows the network to consider non-local relationships between pixels or regions, which is particularly useful for tasks like corner feature detection. To implement corner feature map recognition using a CNN with Non-Local mechanism, we start by designing a network architecture that incorporates Non-Local blocks. These blocks are inserted into the network's layers to capture global information and enhance the network's ability for sparse feature extraction.
+
+![GC-ResNeXt网络](https://github.com/JoeyBGOfficial/Through-the-Wall-Radar-Human-Activity-Recognition-Based-on-M-D-Corner-Feature-and-Non-Local-Net/assets/67720072/d4eb1212-d16d-4245-89a3-ed3536225d05)
+
+Fig. 4. Details of the proposed Non-Local neural network's structure.
 
 
 
