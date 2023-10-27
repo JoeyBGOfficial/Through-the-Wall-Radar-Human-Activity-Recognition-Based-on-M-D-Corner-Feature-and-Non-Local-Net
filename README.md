@@ -126,8 +126,35 @@ This function is a implementation of finding the next neighboring power of $2$ o
 
 **Output:** Neighboring power $p$ of $2$.
 
+#### 13. svd_tool.m:
 
+Main code of the singular value decomposition algorithm. Sourced from MATLAB's native toolbox and fine-tuned.
 
+**Input:** Matrix $\mathbf{A}$.
+
+**Output:** The left chord vectors $\mathbf{U}$, the singular value matrix $\mathbf{S}$, and the right chord vectors $\mathbf{V}$.
+
+#### 14. D2TM_Generator.m:
+
+Code for generating $\mathbf{D^2TM}$ by vertical axis stretching.
+
+**Input:** Matrix $\mathbf{DTM}$.
+
+**Output:** Stretched matrix $\mathbf{D^2TM}$.
+
+#### 15. R2TM_Generator.m:
+
+Code for generating $\mathbf{R^2TM}$ by vertical axis stretching.
+
+**Input:** Matrix $\mathbf{RTM}$.
+
+**Output:** Stretched matrix $\mathbf{R^2TM}$.
+
+### B. Datafiles Explanation (Folder: TWR Echo and Preprocessing Tools, Plots)
+
+#### 1. R2TM_D2TM_Clist.m:
+
+This data file stores the color maps used to generate $\mathbf{R^2TM}$ and $\mathbf{D^2TM}$, which is a tool that corresponds to the color maps in the paper.
 
 
 
