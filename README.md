@@ -170,11 +170,35 @@ Fig. 3. Detecting corner points on two types of radar images using two different
 
 #### 1. D2TM_Corner_Detector.m:
 
-The function is used to achieve Moravec model based corner detection on $\mathbf{D^2TM}.
+The function is used to achieve Moravec model based corner detection on $\mathbf{D^2TM}$.
 
 **Input:** $\mathbf{D^2TM}$ in matrix form.
 
 **Output:** Corner feature map of $\mathbf{D^2TM}$.
+
+#### 2. R2TM_Corner_Detector.m:
+
+The function is used to achieve Moravec model based corner detection on $\mathbf{R^2TM}$.
+
+**Input:** $\mathbf{R^2TM}$ in matrix form.
+
+**Output:** Corner feature map of $\mathbf{R^2TM}$.
+
+#### 3. corner.m:
+
+The function is the main body of the Harris model based corner detection algorithm. Sourced from MATLAB's native toolbox and fine-tuned.
+
+**Input:** Image for detection.
+
+**Output:** Harris based corner feature map and variables corresponding to the input image.
+
+#### 4. gradient.m:
+
+The function is the tool for calculating gradient on a vector or an image.
+
+**Input:** Signal or image.
+
+**Output:** Gradient map corresponding to the input signal or image.
 
 
 
