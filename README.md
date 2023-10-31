@@ -282,7 +282,7 @@ In the Extra Preprocessing Tools folder of the project, we give a variety of dif
 
 ## VII. EXTRA DATASETS
 
- $\textbf{\color{red}{First, we need to emphasize that we do not own any rights to these datasets except for comparison experiments!}}$
+ $\textbf{\color{red}{First, we need to emphasize that we do not own any rights to these datasets except for experiments!}}$
 
 The datasets here include DIAT-μ RadHAR, an open-source dataset for radar-based human activity recognition in free space, and CI4R, an open-source dataset for small sample radar-based human activity recognition in free space. DIAT-μ RadHAR contains a total of $3780$ datas for $6$ categories of typical human activities and CI4R contains a total of $735$ datas for $11$ categories of typical human activities. In our paper, we only extracted a portion of the dataset for training and validation, with the aim of keeping the amount of data consistent across different categories.
 
