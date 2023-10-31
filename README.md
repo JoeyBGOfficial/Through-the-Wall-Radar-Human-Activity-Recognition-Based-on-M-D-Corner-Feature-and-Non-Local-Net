@@ -280,7 +280,11 @@ This data file stores the color maps used to generate T-SNE scatter Plots, which
 
 In the Extra Preprocessing Tools folder of the project, we give a variety of different auxiliary signal, data processing tools for radar based human activity recognition. These include the classical FFT, HHT, TFD, WT, VMD algorithms, and so on. This part of the code is referenced from the TWHD repository uploaded by other teams and slightly improved for processing reference.
 
-## VII. SOME THINGS TO NOTE
+## VII. EXTRA DATASETS
+
+ $\textbf{\color{red}{First we need to emphasize that we do not own any rights to these datasets except for the learning and comparison experiments, and none of these datasets were acquired by us.}}$
+
+## VIII. SOME THINGS TO NOTE
 
 **(1) Reproducibility Issues:** Academically, we give the results of a new exploration of micro-Doppler characterization studies. For engineering applications, the vast majority of data processing or detection methods need to be adapted for different data sources and qualities. Therefore, if the reproducibility is limited, the internal writing of the code needs to be adjusted or even the structure of the algorithm needs to be modified.
 
