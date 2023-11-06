@@ -322,6 +322,6 @@ The script selects the dataset you want to call via a unified dialog box and ope
 
 **(3) Algorithm Design Issues:** If you want to speed up the convergence of the network, it is recommended to modify the four repeating cell sections to one. To improve the fitting ability of the network, the number of repeated unit sections can be increased.
 
-**(4) Right Issues:** **⭐The project is limited to learning purposes only. Any use or interpretation without authorized by us is not allowed!⭐**
+**(4) Right Issues:** **⭐The project is limited to learning purposes only. All extra datasets in this project only belongs to the relevant team that establishes them. Any use or interpretation without authorized by us is not allowed!⭐**
 
 Hope that our work will bring positive contributions to the open source community in the filed of radar signal processing.
