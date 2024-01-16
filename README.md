@@ -15,7 +15,7 @@ Fig. 1. Prospects for the application of through-the-wall radar human monitoring
 
 **Corresponding Papers:**
 
-[1] YANG Xiaopeng, GAO Weicheng, and QU Xiaodong. Human anomalous gait termination recognition via through-the-wall radar based on micro-doppler corner features and non-local mechanism[J]. Journal of Radars,  in press. doi:  10.12000/JR23181.
+[1] YANG Xiaopeng, GAO Weicheng, and QU Xiaodong. Human anomalous gait termination recognition via through-the-wall radar based on micro-Doppler corner features and Non-Local mechanism[J]. Journal of Radars, 2024, 13(1): 68–86. doi: 10.12000/JR23181. (https://radars.ac.cn/article/doi/10.12000/JR23181).
 
 ## II. TWR ECHO MODEL AND PREPROCESSING METHODS
 
